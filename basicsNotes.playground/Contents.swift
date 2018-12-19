@@ -76,3 +76,11 @@ if randomNumber2 >= 50 {
     print("tails")
     print("\(randomNumber2)")
 }
+
+var num = 21
+
+if num % 3 == 0 && num % 5 == 0 && num % 7 == 0 {
+    print ("number is divisible by 3, 5 and 7")
+} else {
+    print("number is not divisible by 3, 5 and 7")
+}
