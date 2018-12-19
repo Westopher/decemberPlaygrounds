@@ -11,4 +11,10 @@ if a > b {
     print("\(b)")
 }
 
-let number = 2
+let number = 5
+
+if number % 2 == 0 {
+    print("It's an even number")
+} else {
+    print("it's odd")
+}
