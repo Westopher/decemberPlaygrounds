@@ -101,7 +101,7 @@ if ((x <= highX) && (x >= lowX)) && ((y <= highY) && (y >= lowY)){
 
 //arrays
 
-var listOfNumbers = [1, 2, 3, 10, 100, 300]
+var listOfNumbers = [1, 2, 3, 10, 100]
 
 //var maxVal = listOfNumbers[0]
 //
@@ -119,3 +119,14 @@ var listOfNumbers = [1, 2, 3, 10, 100, 300]
 //    }
 //}
 
+var sum = 0
+
+for number in listOfNumbers {
+    sum += number
+}
+
+print(sum)
+//for each element in the array list of numbers, add that number to the sum, then print the total.
+
+
+//to do: finish with loops, then come back to arrays
