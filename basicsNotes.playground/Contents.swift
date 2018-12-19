@@ -98,3 +98,24 @@ if ((x <= highX) && (x >= lowX)) && ((y <= highY) && (y >= lowY)){
 } else {
     print("not inside")
 }
+
+//arrays
+
+var listOfNumbers = [1, 2, 3, 10, 100, 300]
+
+//var maxVal = listOfNumbers[0]
+//
+//for number in listOfNumbers {
+//    if maxVal < number {
+//        maxVal = number
+//    }
+//}
+//
+//print(maxVal)
+
+//for number in listOfNumbers {
+//    if number % 2 != 0 {
+//        print(number)
+//    }
+//}
+
