@@ -18,3 +18,22 @@ if number % 2 == 0 {
 } else {
     print("it's odd")
 }
+
+var z = 99
+var x = 50
+
+if z % x == 0 {
+    print("divisible")
+} else {
+    print("not divisible")
+}
+
+var n = 2
+var y = 3
+var c = 2
+
+if n == y || n == c || y == c {
+    print("At least two variables have the same value")
+} else {
+    print("All the values are different")
+}
