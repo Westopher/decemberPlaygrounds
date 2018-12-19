@@ -64,3 +64,15 @@ if randomNumber % 2 == 0 {
     print("tails")
     print("\(randomNumber)")
 }
+
+var randomNumber2 = Float.random(in: 0...100)
+
+//var randomNumber2 = 0
+
+if randomNumber2 >= 50 {
+    print("heads")
+    print("\(randomNumber2)")
+} else {
+    print("tails")
+    print("\(randomNumber2)")
+}
