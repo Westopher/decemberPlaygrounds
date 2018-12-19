@@ -37,3 +37,19 @@ if n == y || n == c || y == c {
 } else {
     print("All the values are different")
 }
+
+
+var baconAge = 6 // the bacon is 6 days old
+var eggsAge = 12 // eggs are 12 days old
+
+if (baconAge <= 7) && (eggsAge <= 21) {
+    print("you can cook bacon and eggs")
+}
+else {
+    if baconAge > 7 {
+        print("throw out bacon")
+    }
+    if eggsAge > 21 {
+        print("throw out eggs")
+    }
+}
