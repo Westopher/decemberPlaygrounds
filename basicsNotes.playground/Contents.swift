@@ -1,4 +1,5 @@
 import UIKit
+import Foundation
 
 var str = "Hello, playground"
 
@@ -52,4 +53,14 @@ else {
     if eggsAge > 21 {
         print("throw out eggs")
     }
+}
+
+var randomNumber = arc4random()
+
+if randomNumber % 2 == 0 {
+    print("heads")
+    print("\(randomNumber)")
+} else {
+    print("tails")
+    print("\(randomNumber)")
 }
