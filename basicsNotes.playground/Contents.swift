@@ -130,3 +130,14 @@ print(sum)
 
 
 //to do: finish with loops, then come back to arrays
+
+var N = 3
+
+for i in 1...N {
+    print("I will not skip the fundamentals")
+}
+
+var daysDictionary = [1 : "SunDay", 2 : "MonDay", 3 : "TuesDay", 4 : "WednesDay", 5 : "ThursDay", 6 : "FriDay", 7 : "SaturDay"]
+for (id,day) in daysDictionary{
+    print ("\(id) , \(day)")
+}
