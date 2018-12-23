@@ -170,6 +170,7 @@ for num in listOfNumbers {
 
 var sum = 0
 
+//for every iteration in listofnumbers array, add the number to the sum
 for number in listOfNumbers{
     sum += number
 }
