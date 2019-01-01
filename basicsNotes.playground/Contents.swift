@@ -185,3 +185,20 @@ func returnNumber(paramNumber: Int) -> Int {
 returnNumber(paramNumber: 10)
 
 returnNumber(paramNumber: 50)
+
+//multiple params
+
+func favAlbum(name: String, year: Int) {
+    print("\(name) was released in \(year)")
+}
+
+favAlbum(name: "Ride the Lightning", year: 1984)
+
+
+
+
+
+
+
+
+
