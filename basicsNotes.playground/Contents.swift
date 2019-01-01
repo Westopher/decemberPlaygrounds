@@ -194,8 +194,26 @@ func favAlbum(name: String, year: Int) {
 
 favAlbum(name: "Ride the Lightning", year: 1984)
 
+//the param used outside the function when calling it is myString, but inside the param itself, str is used
+func countLettersInString(myString str: String) {
+    print("The string \(str) has \(str.count) letters.")
+}
 
+countLettersInString(myString: "Hello")
 
+//when you just want to put the information in when calling the string, use the underscore _
+func countLettersInString(_ str: String, otherString: String) {
+    print("The string \(str) has \(str.count) letters. Also, here's this \(otherString)")
+}
+//so here, you're just using the string to call the param
+countLettersInString("Hello", otherString: "otherString 3333")
+
+//this is done to make calling the function seem more like natural english. seems a bit wet to me though.
+func countLetters(in string: String) {
+    print("The string \(string) has \(string.count) letters.")
+}
+
+countLetters(in: "Hello")
 
 
 
