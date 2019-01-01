@@ -178,3 +178,10 @@ for number in listOfNumbers{
 print(sum)
 
 
+func returnNumber(paramNumber: Int) -> Int {
+    return paramNumber
+}
+
+returnNumber(paramNumber: 10)
+
+returnNumber(paramNumber: 50)
